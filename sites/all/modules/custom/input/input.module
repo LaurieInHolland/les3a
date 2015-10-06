@@ -179,7 +179,7 @@ function input_form_alter(&$form, &$form_state, $form_id) {
 
 /**
  * Submission function for search form.
- *
+ * This is a change we want to keep
  * We are storing a search history which we can use for a later example of autocompletion.
  */
 function input_search_submit($form, &$form_state) {
